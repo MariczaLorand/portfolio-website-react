@@ -9,11 +9,12 @@
     line-height: 20px;
     @include media(">=phone", "<=tablet") {
       text-align: center;
-      font-size: 3.5rem;
+      //font-size: 3rem;
       line-height: 50px;
     }
     @include media(">=tablet", "<desktop") {
       text-align: center;
+      font-size: 4rem;
       line-height: 50px;
     }
   }
