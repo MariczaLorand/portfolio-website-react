@@ -25,6 +25,9 @@
   .email-link {
     font-size: 1.5rem;
     color: black;
+    @include media(">=phone", "<tablet") {
+      font-size: 1.3rem;
+    }
   }
   .social-icons {
     margin-top: 20px;

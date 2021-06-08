@@ -7,6 +7,15 @@
   h1 {
     font-size: 3rem;
     line-height: 20px;
+    @include media(">=phone", "<=tablet") {
+      text-align: center;
+      font-size: 3.5rem;
+      line-height: 50px;
+    }
+    @include media(">=tablet", "<desktop") {
+      text-align: center;
+      line-height: 50px;
+    }
   }
 
   .skills-grid {
@@ -16,6 +25,7 @@
     grid-gap: 100px;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
+      grid-gap: 3rem;
     }
     @include media(">=lgphone", "<tablet") {
       grid-template-columns: 1fr;
