@@ -5,6 +5,7 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import linkedInIcon from "./images/linkedin.svg"
 import nodeJSIcon from "./images/nodejs.svg"
+import cSharpIcon from "./images/csharp.svg"
 import sqlIcon from "./images/sql.svg"
 import mePhoto from "./images/me-photo.jpg"
 //import designIcon from "./images/design.svg"
@@ -179,6 +180,9 @@ export default {
     },
     {
       img: nodeJSIcon
+    },
+    {
+      img: cSharpIcon
     },
     {
       img: sqlIcon
